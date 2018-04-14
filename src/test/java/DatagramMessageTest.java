@@ -5,7 +5,7 @@ import javax.xml.crypto.Data;
 import java.net.InetAddress;
 
 import static org.junit.Assert.*;
-
+//comment
 public class DatagramMessageTest
 {
     private DatagramMessage dm = new DatagramMessage();
