@@ -25,4 +25,20 @@ public class DatagramMessage{
    public int getPort( ) {
       return this.senderPort;
    }
+
+   public void setMessage(String msg)
+   {
+      this.message = msg;
+   }
+
+   public void setAddress(InetAddress add)
+   {
+      this.senderAddress = add;
+   }
+
+   public void setPort(int port)
+   {
+      this.senderPort = port;
+   }
+
 } // end class  
