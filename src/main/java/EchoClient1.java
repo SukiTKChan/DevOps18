@@ -34,7 +34,7 @@ public class EchoClient1 {
          {
             System.out.println("Type u to upload a file, d to download a file and q to logout");
             message = br.readLine( );
-            if (message.equalsIgnoreCase("q"))
+            if (message.equalsIgnoreCase("q") || message.equalsIgnoreCase("e"))
             {
                echo = helper.logout(endMessage);
                done = true;
