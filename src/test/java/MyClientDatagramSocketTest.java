@@ -7,6 +7,7 @@ import java.net.SocketException;
 import java.net.UnknownHostException;
 import static org.junit.Assert.*;
 
+//
 public class MyClientDatagramSocketTest
 {
     private MyClientDatagramSocket mdm = new MyClientDatagramSocket();
