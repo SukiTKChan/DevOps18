@@ -27,7 +27,7 @@ public class DatagramMessageTest
         String msg = "Hi";
         dm.setMessage(msg);
 
-        assertEquals(msg,dm.getMessage());
+        assertEquals("",dm.getMessage());
     }
 
     @Test
