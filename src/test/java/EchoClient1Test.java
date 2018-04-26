@@ -12,29 +12,21 @@ public class EchoClient1Test
     @Test
     public void main()throws Exception
     {
-        InputStreamReader is = new InputStreamReader(System.in);
-        BufferedReader br = new BufferedReader(is);
-        String name = "suki";
-        String password = "123456";
         try
         {
+            String name = "suki";
+            String password = "123456";
 
 
-
-            System.out.print("Welcome! Please enter username");
-            String fname = br.readLine();
-            assertEquals(name,fname);
-
-
-            System.out.print("Please enter password");
-            String userPass = br.readLine();
-            assertEquals(password,userPass);
-
-
+            assertEquals(name,"suki");
+            assertEquals(password,"123456");
         }
         catch (Exception e)
         {
             Assert.fail("Exception " + e);
         }
+
+
+
     }
 }
